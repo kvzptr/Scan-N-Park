@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="parkit">ParkIT</string>
+    <string name="todo">TODO</string>
+    <string name="button">Button</string>
+    <string name="our_services">Our Services</string>
+    <string name="_1">1</string>
+    <string name="address">Address</string>
+    <string name="name">Name</string>
+    <string name="vehicle">Vehicle Type</string>
+    <string name="submit">Submit</string>
+    <string name="plate_no">Plate No.</string>
+    <string name="enter_address">" Enter Address"</string>
+    <string name="middle_initial">" Middle Initial (Optional)"</string>
+    <string name="first_name">" First Name"</string>
+    <string name="last_name">" Last Name"</string>
+    <string name="license_no">License No.</string>
+    <string name="enter_plate_no">" Enter Plate No."</string>
+    <string name="enter_license_no">" Enter License No."</string>
+    <string name="username_license_no">" Username (License No.)"</string>
+    <string name="password">" Password (Lastname)"</string>
+    <string name="login">Login</string>
+    <string name="return_to_homepage">Return to Homepage</string>
+    <string name="logout">Logout</string>
+</resources>

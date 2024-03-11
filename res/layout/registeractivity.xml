@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/darken_bg"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logoprojnew"
+            tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-medium"
+            android:text="
+            Scan-N-Park"
+            android:textAlignment="center"
+            android:textColor="#800000"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            tools:ignore="HardcodedText,TextContrastCheck,TextSizeCheck" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ctulogonobg"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_maroon_line" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/lastnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/last_name"
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/name"
+        android:inputType="text"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor"
+        android:autofillHints=" "
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <EditText
+        android:id="@+id/firstnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/first_name"
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/name"
+        android:inputType="text"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor"
+        android:autofillHints=" "
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <EditText
+        android:id="@+id/middlenameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/middle_initial"
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/name"
+        android:inputType="text"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor"
+        android:autofillHints=" "
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/enter_address"
+        android:autofillHints= " "
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/address"
+        android:inputType="text"
+        tools:ignore="ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/vehicleSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/round_white" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/license_no"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/licenseNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/enter_license_no"
+        android:autofillHints=" "
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/plate_no"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        tools:ignore="Autofill,ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plate_no"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/plateNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/enter_plate_no"
+        android:autofillHints=" "
+        android:background="@drawable/round_white"
+        android:contentDescription="@string/plate_no"
+        android:inputType="text"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        tools:ignore="Autofill,ContentDescription,DuplicateSpeakableTextCheck,EditableContentDescCheck,LabelFor" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_selector_maroon"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
+</ScrollView>
